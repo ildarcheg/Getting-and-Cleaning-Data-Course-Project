@@ -52,7 +52,7 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set 'tidyData'. Sets 'activityId' as a factor.
 
 ### STEP 4 
-Appropriately labels the data set with descriptive variable names in ???tidyData???
+Appropriately labels the data set with descriptive variable names in 'tidyData'
 For example '^t' to 'time', 'Gyro' to 'Gyroscope'.
 
 ### STEP 5 

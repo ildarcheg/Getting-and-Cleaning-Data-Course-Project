@@ -28,7 +28,8 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
-### Step 0 Reads and prepares the data from sources in working directory:
+### Step 0 
+Reads and prepares the data from sources in working directory:
 - ./features.txt
 - ./activity_labels.txt
 - ./train/subject_train.txt
@@ -40,14 +41,18 @@ For each record in the dataset it is provided:
 
 Features, activity, subjectTrain, xTrain, yTrain, subjectTest, xTest, yTest - contain the data from the data set and will be used for analysis.
 
-### STEP 1 Merges the training and the test sets to create one data set.
+### STEP 1 
+Merges the training and the test sets to create one data set.
 Combine the data from step 0 to one data frame named df.
 
-### STEP 2 Extracts only the measurements on the mean and standard deviation for each measurement and keeps result in ???tidyData???
+### STEP 2 
+Extracts only the measurements on the mean and standard deviation for each measurement and keeps result in 'tidyData'
 
-### STEP 3 Uses descriptive activity names to name the activities in the data set ???tidyData???. Sets ???activityId??? as a factor.
+### STEP 3 
+Uses descriptive activity names to name the activities in the data set 'tidyData'. Sets 'activityId' as a factor.
 
-### STEP 4 Appropriately labels the data set with descriptive variable names in ???tidyData???
-For example ???^t??? to ???time???, ???Gyro??? to ???Gyroscope???.
+### STEP 4 
+Appropriately labels the data set with descriptive variable names in ???tidyData???
+For example '^t' to 'time', 'Gyro' to 'Gyroscope'.
 
-### STEP 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, keeps in ???tidyDataFinal??? and saved in ???./tidyData.txt???
+### STEP 5 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, keeps in 'tidyDataFinal' and saved in './tidyData.txt'
